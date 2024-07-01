@@ -7,3 +7,7 @@ Eingebettete Links führen zu Google, Maps, Tierheim Quellenhof Passbrunn, pixab
 Fotos sind komplett von https://pixabay.com/de/
 
 
+ToDo:
+
+- Formatierungen
+- Effekte
