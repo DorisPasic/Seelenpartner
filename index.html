@@ -5,139 +5,148 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tailwind.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;}
+      
+    </style>
     <title>Seelenpartner e.V.</title>
 </head>
 <body class="bg-slate-200">
     <header  class="bg-cover bg-no-repeat" style="background-image: url(./img/field-3629120_1280.jpg)" id="top"><h1 class="text-center font-bold text-2xl pt-10 ">Seelenpartner e.V.</h1>
     <nav class="flex justify-center flex-wrap m-2">
-        <img src="./img/1.png" alt="Seelenpartner e.V. Logo" class="h-36 w-36 rounded-full m-2" />
+        <img src="./img/1.png" alt="Seelenpartner e.V. Logo" class="h-36 w-36 rounded-full m-2 hover:animate-spin" />
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-4 justify-center">
             <div class="text-md text-center lg:flex-grow items-center ">
-              <a href="#" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
+              <a href="#uns" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
                 Über uns
               </a>
-              <a href="#" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
+              <a href="galerie.html" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
                 Die Tiere
               </a>
-              <a href="#" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
+              <a href="#aktuelles" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
                 Aktionen
               </a>
-              <a href="#" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
+              <a href="https://quellenhof-passbrunn.de/spenden-helfen/online-spenden.php" target="_blank" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
                 Helfen
               </a>              
               <a href="#bottom" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
                 Kontakt
               </a>              
-              <a href="https://www.google.com/webhp?hl=en&sa=X&sqi=2&pjf=1&ved=0ahUKEwjV6fPj3YWHAxXigf0HHYeQDW4QPAgI" target="_blank" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
+              <a href="https://www.google.com/webhp?hl=en&sa=X&sqi=2&pjf=1&ved=0ahUKEwjV6fPj3YWHAxXigf0HHYeQDW4QPAgI" target="_blank" class="block mt-4 lg:inline-block lg:mt-4 lg:mb-4 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
                 Suche
               </a>
-            </div>
+            </div> <br>
             <a href="https://quellenhof-passbrunn.de/spenden-helfen/online-spenden.php" target="_blank" class="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 p-4 m-4 rounded">
               Spenden
-            </a>
+            </a>  
         </div>
     </nav>
 </header>
-    <main>
-      <section  class="bg-white m-4 p-4 mx-4"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Unsere Neuzugänge</h3>
-       <!--Versuch Karten-->
-       <div class="container mx-auto py-1 grid auto-rows-fr grid-cols-4 gap-3 lg:px-32 lg:pt-12">
-        <!-- <div class="-m-1 flex flex-wrap md:-m-2"> -->
-          <div class="col-span-1 flex flex-col "  >
-            <div class="w-full p-1 md:p-2">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                    <a href="#"><img class="w-full" src="./img/meerschweinchen1.jpg" alt="Hamster"></a>
-                    <div class="px-6 py-4">
-                      <div class="font-bold text-xl mb-2 text-teal-900">Marvin</div>
-                      <p class="text-gray-700 text-base">
-                        Meerschweinchen "Marvin"
-                      </p></div>
+  <main>
+    <section  class="bg-white m-4 p-4"><h3 class=" font-bold text-xl text-teal-900 ">Unsere Neuzugänge</h3>
+       <!--Karten "Unsere Neuzugänge"-->
+      <div class=" mx-auto grid auto-rows-fr grid-cols-4 gap-3 lg:px-32 lg:pt-12">
+        <div class="col-span-1 lg:inline-block"  >
+          <div class="w-full flex flex-col md:p-2">
+            <div class="max-w-80 rounded overflow-hidden shadow-lg flex-1">
+              <a href="#"><img class="hover:-translate-y-1" src="./img/ratten.jpg" alt="Baby-Hausratten" style="height: auto; width: auto;"></a>
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2 text-teal-900">Marvin & Marga</div>
+                    <p class="text-gray-700 text-base">
+                        Baby-Hausratten "Marvin" & "Marga"
+                    </p>
                 </div>
+              </div>
             </div>
           </div>
-          <div class="col-span-1 flex flex-col "  >
-            <div class="w-full p-1 md:p-2">
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <a href="#"><img class="w-full" src="./img/hund1.jpg" alt="Hund"></a>
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl text-teal-900 mb-2">Sonja</div>
+
+          <div class="w-full flex flex-col  p-1 md:p-2">
+            <div class="max-w-80 rounded overflow-hidden shadow-lg flex-1 ">
+              <a href="#"><img class="hover:-translate-y-1" src="./img/hund1.jpg" alt="Hund" style="height: auto; width: auto;"></a>
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl text-teal-900 mb-2">Sonja</div>
                   <p class="text-gray-700 text-base">
-                    Mischlingshund "Sonja"
-                  </p></div>
-            </div></div>
+                    Mischlingshund "Sonja"</p>
+              </div>
+            </div>
           </div>
-          <div class="col-span-1 flex flex-col "  >
-            <div class="w-full p-1 md:p-2">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                    <a href="#"><img class="w-full" src="./img/katze1.jpg" alt="Hund"></a>
-                    <div class="px-6 py-4">
-                      <div class="font-bold text-teal-900 text-xl mb-2">Jing</div>
-                      <p class="text-gray-700 text-base">
-                        Katze "Jing"
-                      </p>
-                    </div>
-            </div></div>
+
+          <div class="w-full flex flex-col p-1 md:p-2">
+            <div class="max-w-80 rounded overflow-hidden shadow-lg flex-1">
+              <a href="#"><img class="hover:-translate-y-1" src="./img/katze1.jpg" alt="Hund" style="height: auto; width: auto;"></a>
+              <div class="px-6 py-4">
+                <div class="font-bold text-teal-900 text-xl mb-2">Jing</div>
+                  <p class="text-gray-700 text-base">Katze "Jing"</p>
+              </div>
+            </div>
           </div>
-          <div class="col-span-1 flex flex-col "  >
-            <div class="w-full p-1 md:p-2">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                    <a href="#"><img class="w-full" src="./img/house-7927916_1280.webp" alt="Haus"></a>
-                    <div class="px-6 py-4">
-                      <div class="font-bold text-xl mb-2 text-teal-900">Weitere Neuzugänge</div>
-                        <p class="text-gray-700 text-base">
-                            Hier kommen Sie zu unseren weiteren Neuzugängen >>
-                          </p></div>
-                      </div>
+          
+          <div class="w-full flex flex-col p-1 md:p-2">
+            <div class="max-w-80 rounded overflow-hidden shadow-lg flex-1">
+              <a href="#"><img class="hover:-translate-y-1" src="./img/house-7927916_1280.webp" alt="Haus" style="height: auto; width: auto;"></a>
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 text-teal-900">Weitere Neuzugänge</div>
+                  <p class="text-gray-700 text-base">finden Sie hier >></p>
                 </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
-      
-    <!-- Patenschaften und Aktuelles, Formatierung fehlt -->
-    <div class="container flex-wrap flex">
-    <section  class="bg-white inline-block m-4 p-4 "><div class="w-full p-1 md:p-2"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Patenschaften</h3>  
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <a href="#"><img class="w-full" src="./img/hängebauchschweine.jpg" alt="Hängebauchschwein"></a>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Patenschaften retten Leben <br></div>
-              <p class="text-gray-700 text-base"><a href="#">Jetzt Patentier aussuchen >> </a></p>
+    <!-- ab hier cards "Aktuelles"-->  
+    <section  class="bg-white m-4 p-4 " id="aktuelles"><h3 class=" font-bold text-xl text-teal-900 mb-2">Aktuelles</h3>
+      <div class=" mx-auto grid auto-rows-fr grid-cols-4 gap-3 lg:px-32 lg:pt-12">
+        <div class="col-span-1 lg:inline-block"  >
+          <div class="w-full flex flex-col md:p-2">
+            <div class="max-w-80 rounded overflow-hidden shadow-lg flex-1">
+              <a href="#"><img class="hover:-translate-y-1" src="./img/hängebauchschweine.jpg" alt="Hängebauchschwein" style="height: auto; width: auto;"></a>
+              <div class="px-6 py-4">
+                <div class="font-bold text-teal-900 text-xl mb-2">Patenschaften retten Leben <br></div>
+                <p class="text-gray-700 text-base"><a href="galerie.html">Jetzt Patentier aussuchen >> </a></p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-span-1 lg:inline-block"  >
+          <div class="w-full flex flex-col  p-1 md:p-2">
+            <div class="max-w-80 rounded overflow-hidden shadow-lg flex-1 ">
+              <a href="#"><img class="hover:-translate-y-1" src="./img/seifenblasen.jpg" alt="seifenblasen" style="height: auto; width: auto;"></a>
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl text-teal-900 mb-2">Sommerfest 2024</div>
+                <p class="text-gray-700 text-base"><a href="galerie.html">Zur Galerie >></a></p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>  
-      
-    <section  class="bg-white m-4 p-4">
-        <div class="w-full p-1 md:p-2"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Aktuelles</h3>
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <a href="#"><img class="w-full" src="./img/sommerfest1.jpg" alt="Sommerfest"></a>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Sommerfest 2024<br></div>
-              <p class="text-gray-700 text-base"><a href="#">Zur Galerie >></a></p>
+        <div class="col-span-1 "  >
+          <div class="w-full flex flex-col p-1 md:p-2">
+            <div class="max-w-80 rounded overflow-hidden shadow-lg flex-1">
+              <a href="https://kaninchenwiese.de/" target="_blank"><img class="hover:-translate-y-1" src="./img/kaninchen_wiese.jpg" alt="Kaninchen" style="height: auto; width: auto;"></a>
+              <div class="px-6 py-4">
+                <div class="font-bold text-teal-900 text-xl mb-2">Thema: Kaninchen</div>
+                <p class="text-gray-700 text-base"><a href="https://kaninchenwiese.de/" target="_blank"> Zum Artikel >></a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <a href="https://kaninchenwiese.de/" target="_blank"><img class="w-full" src="./img/kaninchen_wiese.jpg" alt="Kaninchen"></a>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Kaninchen<br></div>
-              <p class="text-gray-700 text-base"><a href="https://kaninchenwiese.de/" target="_blank">Zum Artikel >></a></p>
-        </div>
-        </div>
+      </div>
     </section>
-    </div>
-
-
-      <!-- 2/3 "Über uns", 1/3 Spende, Formatierung nebeneinander fehlt noch-->
-      <div class="container flex-wrap flex">
-      <section  class="bg-white m-4 p-4"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Seelenpartner e.V. - Über uns:</h3>
+ 
+    <!-- 2/3 "Über uns", 1/3 Spende, Formatierung nebeneinander fehlt noch-->
+      <div class=" flex-wrap flex">
+        <section id="uns"  class="bg-white m-4 p-4"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Seelenpartner e.V. - Über uns:</h3>
         <p>Wir sind ein Lebensort für gerettete Tiere sowie ein veganes Tierschutzzentrum irgendwo in Deutschland. <br> Von Mai bis Oktober haben wir jeden Sonntag geöffnet und bieten an diesen Tagen Führungen an.</p></br>
         <p>Wir feiern mehrmals im Jahr Feste mit vielen Infos, buntem Programm und natürlich leckerem Essen. </br>
         Zudem gibt es Workshops für Schulklassen und andere Gruppen nach Absprache.</p> <br>
         <a href="#">Mehr zu unserer Geschichte >></a>
-      </section>
+        </section>
       
-      <section  class="bg-white m-4 p-4"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Jede Spende hilft!</h3>
+        <section  class="bg-white m-4 p-4"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Jede Spende hilft!</h3>
         <p>Stiftung Seelenpartner - Seelenpartner e.V. <br>
         IBAN: DE00 1234 5678 9101 <br> BIC: BINGOSEELENEV <br> oder via <a href="#" class="text-teal-800 hover:bg-teal-300">PayPal</a> </p></section>
       </div>
@@ -145,45 +154,51 @@
     <!-- ganze Breite Bericht -->
       
       <section  class="bg-white m-4 p-4"><h3 class="pb-2 font-bold text-xl text-teal-900 mb-2"><a href="https://quellenhof-passbrunn.de/aktuelles/tagebuch/2024.php" target="_blank">Erfahrungsberichte</a></h3>
-      <div class="border p-2"><h4 class="font-bold p-2">"Torben"</h4>Liebe Mitarbeiter:innen vom Tierheim Seelenpartner, <br>nochmals vielen Dank für diesen tollen Hund. Torben hat sich bei uns sehr gut eingelebt dank Eurer hilfreichen Betreuung und Tipps. Er ist ein Schatz und der Liebling der Familie! <br>Viele Grüße aus Wndelskirchen</div>
-      <div class="border p-2 mt-2"><h4 class="font-bold p-2">"Chaima"</h4>Liebes Tierhiemteam, <br>wie versprochen, melde ich mich, um über unser Zusammenleben zu berichten. <br>Chaima lässt sich mittlerweile anfassen und sogar auf den Arm nehmen. Sie läuft auch seit dem 1. Tag neugierig durch die Wohnung, nachts tobt sie mit Dursel durch die Wohnung. <br>Sie wird sicherlich keine große Schmusekatze, aber ich denke, sie weiß mittlerweile, dass sie bei uns sicher ist. <br>Vielen Dank für die tolle Unterstützung und liebe Grüße aus Berlin</div>
-    </section>
+        <div class="border p-2"><h4 class="font-bold p-2">"Torben"</h4>Liebe Mitarbeiter:innen vom Tierheim Seelenpartner, <br>nochmals vielen Dank für diesen tollen Hund. Torben hat sich bei uns sehr gut eingelebt dank Eurer hilfreichen Betreuung und Tipps. Er ist ein Schatz und der Liebling der Familie! <br>Viele Grüße aus Wendelskirchen</div>
+        <div class="border p-2 mt-2"><h4 class="font-bold p-2">"Chaima"</h4>Liebes Tierheimteam, <br>wie versprochen, melde ich mich, um über unser Zusammenleben mit unserer Katze Chaima zu berichten. <br>Chaima lässt sich mittlerweile anfassen und sogar auf den Arm nehmen. Sie läuft auch seit dem 1. Tag neugierig durch die Wohnung, nachts tobt sie mit ihrer neuen Freundin Dursel durch die Wohnung. <br>Sie wird sicherlich keine große Schmusekatze, aber ich denke, sie weiß mittlerweile, dass sie bei uns sicher ist. <br>Vielen Dank für die tolle Unterstützung und liebe Grüße aus Berlin</div>
+      </section>
 
     <!-- 50/50 Videos und Fotos -->
-    <div class="container flex-wrap flex">
-        <section  class="bg-white m-4 p-4"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Videos unserer Tiere</h3>
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <a href="https://www.youtube.com/watch?v=pY8bd0mxqkw" target="_blank"><img class="w-full" src="./img/hund2.jpg" alt="Hunde"></a>
+      <section  class="bg-white m-4 p-4 " id="aktuelles"><h3 class=" font-bold text-xl text-teal-900 mb-2">Unsere Tiere</h3>
+        <div class=" mx-auto grid auto-rows-fr grid-cols-4 gap-3 lg:px-32 lg:pt-12">
+          <div class="col-span-1 lg:inline-block"  >
+            <div class="w-full flex flex-col md:p-2">
+              <div class="max-w-80 rounded overflow-hidden shadow-lg flex-1">
+                <a href="https://www.youtube.com/watch?v=pY8bd0mxqkw" target="_blank"><img class="hover:-translate-y-1" src="./img/hund2.jpg" alt="Hund"></a>
                 <div class="px-6 py-4">
+                  <div class="font-bold text-teal-900 text-xl mb-2">Videos<br></div>
                   <p class="text-gray-700 text-base"><a href="https://www.youtube.com/watch?v=pY8bd0mxqkw" target="_blank">Link zu Tiervideos >> </a></p>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-span-1 lg:inline-block"  >
+            <div class="w-full flex flex-col  p-1 md:p-2">
+              <div class="max-w-80 rounded overflow-hidden shadow-lg flex-1 ">
+              <a href="galerie.html"><img class="hover:-translate-y-1" src="./img/katze2.jpg" alt="Katze" style="height: auto; width: auto;"></a>
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl text-teal-900 mb-2">Fotos</div>
+                  <p class="text-gray-700 text-base"><a href="galerie.html">Zur Galerie >></a></p>
+                </div>
+              </div>
             </div>
-    </section>
-    <!--Formatierung Galerie-->  
-
-
-<!--Formatierung Galerie-->  
-    <!--   <section  class="bg-white m-4 p-4"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Fotos unserer Tiere</h3>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg">
-        <a href="https://pixabay.com/de/photos/search/tiere" target="_blank"><img class="w-full" src="./img/katze2.jpg" alt="Katze"></a>
-        <div class="px-6 py-4">
-          <p class="text-gray-700 text-base"><a href="https://pixabay.com/de/photos/search/tiere" target="_blank">Link zu Tierfotos >> </a></p>
-      </div>
+          </div>
+        </div>
       </section>
-    </div> -->
 
     <!-- 3x 1/3 Kontakt, Besuchszeiten, Anfahrt -->
     <div class="container flex-wrap flex">  
-      <section  class="bg-white m-4 p-4 w-1/3 "><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">So finden Sie uns</h3>
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <a href="https://www.google.com/maps" target="_blank"><img class="w-full" src="./img/map.jpg" alt="Karte"></a>
-            <div class="px-6 py-4">
-              <p class="text-gray-700 text-base"><a href="https://www.google.com/maps" target="_blank">Link zu Google Maps >> </a></p>
+      <section  class="bg-white m-4 p-4 w-auto "><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">So finden Sie uns</h3>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg ">
+          <a href="https://www.google.com/maps" target="_blank"><img class="w-full hover:-translate-y-1" src="./img/map.jpg" alt="Karte"></a>
+          <div class="px-6 py-4">
+            <p class="text-gray-700 text-base"><a href="https://www.google.com/maps" target="_blank">Link zu Google Maps >> </a></p>
           </div>
+        </div>
       </section>
       
-      <section  class="bg-white m-4 p-4 w-1/4"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Kontakt</h3>
-      <p class="text-xl">Seelenpartner e.V. <br>
+      <section  class="bg-white m-4 p-4 w-auto"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Kontakt</h3>
+        <p class="text-xl">Seelenpartner e.V. <br>
         Stiftung Seelenpartner <br>
          - Caroline Manfred - <br>
          <br>
@@ -196,42 +211,33 @@
       
       <section  class="bg-white m-4 p-4 w-1/3"><h3 class="pb-4 font-bold text-xl text-teal-900 mb-2">Besuchszeiten</h3>
         <p class="text-justify text-xl">Von Mai bis Oktober ist unser Tierheim jeden Sonntag von 10:00 bis 18:00 Uhr für Besucher:innen geöffnet. <br>
-            <br>
-            Adoptionstermine werden individuell vereinbart, siehe Kontaktdaten.</p>
+          <br>
+          Adoptionstermine werden individuell vereinbart, siehe Kontaktdaten.</p>
       </section>
     </div>
-    </main>
+  </main>
    
     <!--Footer ist fertig -->
-    <footer class="bg-teal-300" id="bottom">
-        <nav class="flex justify-center flex-wrap m-2">
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-4 justify-center">
-        <div class="text-md text-center lg:flex-grow items-center ">
+  <footer class="bg-teal-300 mb-0 pb-0 pt-4" id="bottom">
+    <nav class="flex justify-center flex-wrap m-4">
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-4 justify-center">
+        <div class="text-md text-center mt-4 lg:flex-grow items-center ">
+          <a href="impressum.html" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
+          Impressum</a>
           <a href="#" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
-            Impressum
-          </a>
+          AGB</a>
+          <a href="datenschutz.html" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
+          Datenschutz</a>              
           <a href="#" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
-            AGB
-          </a>
-          <a href="#" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
-            Datenschutz
-          </a>              
+          Widerrufsbelehrung</a>              
           <a href="#" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
-            Widerrufsbelehrung
-          </a>              
-          <a href="#" class="block mt-4 lg:inline-block lg:mt-0 bg-teal-300 p-2 rounded-md hover:rounded-2xl  text-teal-900 hover:text-white hover:bg-teal-700 mr-4">
-            Cookie Einstellungen
-          </a>
-        </div>
-        <a class="bg-teal-600 hover:bg-teal-700 button-top text-white font-bold py-2 p-4 m-4 rounded" href="#top">nach oben</a>
-    </div>
+          Cookie Einstellungen</a>
+          <p>&copy; 2024 Doris Pasic</p>
+          <br>
+          <a class="bg-teal-600 hover:bg-teal-700 button-top text-white font-bold p-4 rounded" href="#top">nach oben</a>
+        </div><br>
+      </div>
     </nav>
   </footer>
-  </body>
-  </html>
-      <!-- <section>
-        <h2>Willkommen bei Seelenpartner e.V.</h2>
-        <p>Wir sind ein gemeinnütziger Verein, der sich um Tiere in Not kümmert. Wir helfen, wo wir können und freuen uns über jede Unterstützung.</p>
-      </section> 
-      
-      https://land-der-tiere.de/-->
+</body>
+</html>
