@@ -9,7 +9,7 @@ https://seelenpartner.onrender.com/
 Thema:
 
 Erstellen einer Homepage für ein fiktives Tierheim mit Lebensort für gerettete Tiere.
-Ich habe mit html5 und Tailwind gearbeitet.
+Ich habe dafür mit html5 und Tailwind gearbeitet.
 
 Eingebettete externe Links führen zu Google, Maps, Tierheim Quellenhof Passbrunn, pixabay, pexels und YouTube.
 
