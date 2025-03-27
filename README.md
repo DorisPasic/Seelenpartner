@@ -18,3 +18,4 @@ Fotos sind von https://pixabay.com/de/ und https://www.pexels.com/de-de/.
 Das Logo habe ich selbst per Canva erstellt.
 
 ToDo: responsive Layout fertigstellen.
+
