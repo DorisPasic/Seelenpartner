@@ -107,8 +107,6 @@ Das Logo habe ich selbst per Canva erstellt.
  
 ToDo: responsive Layout fertigstellen.
 
-Ansonsten: ... in Arbeit
-![image](https://github.com/user-attachments/assets/3be39d5d-47a7-49bf-ac78-158e15ea4091)
 <!--
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -130,20 +128,10 @@ Use the `BLANK_README.md` to get started.
 
 
 ### Built With
-... in Arbeit
-![image](https://github.com/user-attachments/assets/3be39d5d-47a7-49bf-ac78-158e15ea4091)
-<!--
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
+* HTML5
+* CSS
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
--->
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
