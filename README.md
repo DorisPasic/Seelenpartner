@@ -1,27 +1,3 @@
-
-<!--# Seelenpartner e.V.
-*** 
-*** https://dorispasic.github.io/Seelenpartner/build/index.html
-*** 
-*** oder
-*** 
-*** https://seelenpartner.onrender.com/
-*** 
-*** Thema:
-*** 
-*** Erstellen einer Homepage für ein fiktives Tierheim mit Lebensort für gerettete Tiere.
-*** Ich habe dafür mit html5 und Tailwind gearbeitet.
-*** 
-*** Eingebettete externe Links führen zu Google, Maps, Tierheim Quellenhof Passbrunn, pixabay, pexels und YouTube.
-*** 
-*** Fotos sind von https://pixabay.com/de/ und https://www.pexels.com/de-de/.
-*** 
-*** Das Logo habe ich selbst per Canva erstellt.
-*** 
-*** ToDo: responsive Layout fertigstellen.
--->
-
-
 <!--
 <a id="readme-top"></a>
 -->
@@ -38,15 +14,15 @@
 
 
 <!-- PROJECT LOGO -->
-<!-- <br />
+<!-- <br /> -->
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://seelenpartner.onrender.com/">
+    <img src="./build/img/Website.png" alt="Logo" height="100">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center"><a href="https://seelenpartner.onrender.com/">Seelenpartner e.V. (fiktiv!)</a></h3>
 
-  <p align="center">
+  <!-- <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
@@ -97,7 +73,7 @@
 Thema:
 
 Erstellen einer Homepage für ein fiktives Tierheim mit Lebensort für gerettete Tiere.
-Ich habe dafür mit HTML5 und Tailwind gearbeitet.
+Ich habe dafür mit HTML5, CSS und Tailwind gearbeitet.
 
 Eingebettete externe Links führen zu Google, Maps, Tierheim Quellenhof Passbrunn, pixabay, pexels und YouTube.
 
