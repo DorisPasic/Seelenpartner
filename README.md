@@ -97,11 +97,11 @@
 Thema:
 
 Erstellen einer Homepage für ein fiktives Tierheim mit Lebensort für gerettete Tiere.
-Ich habe dafür mit html5 und Tailwind gearbeitet.
+Ich habe dafür mit HTML5 und Tailwind gearbeitet.
 
 Eingebettete externe Links führen zu Google, Maps, Tierheim Quellenhof Passbrunn, pixabay, pexels und YouTube.
 
-Fotos sind von https://pixabay.com/de/ und https://www.pexels.com/de-de/.
+Fotos von:  https://pixabay.com/de/  und  https://www.pexels.com/de-de/
  
 Das Logo habe ich selbst per Canva erstellt.
  
@@ -121,28 +121,29 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 Use the `BLANK_README.md` to get started.
 
--->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
 ### Built With
 * HTML5
 * CSS
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* Bootstrap
+<!--* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>-->
 
 
 <!-- ROADMAP -->
-## Roadmap
+<!-- -## Roadmap
 ... in Arbeit
 ![image](https://github.com/user-attachments/assets/3be39d5d-47a7-49bf-ac78-158e15ea4091)
 
 
-<!-- - [x] Add Changelog
+ [x] Add Changelog
 - [x] Add back to top links
 - [ ] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
@@ -150,17 +151,17 @@ Use the `BLANK_README.md` to get started.
     - [ ] Chinese
     - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues). -->
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues). 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
 
 
 <!-- LICENSE -->
-## License
+<!-- ## License
 ... in Arbeit
 ![image](https://github.com/user-attachments/assets/3be39d5d-47a7-49bf-ac78-158e15ea4091)
 
-<!-- Distributed under the Unlicense License. See `LICENSE.txt` for more information. -->
+Distributed under the Unlicense License. See `LICENSE.txt` for more information. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,16 +172,16 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 Doris Pasic - [@Wonderlink](https://wonderl.ink/@dorispasicstudio) - dorispasicstudio@outlook.de
 
-<!--Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)-->
+<!--Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!--## Acknowledgments
 
-<!-- Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off! -->
+ Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off! 
 ... in Arbeit
 ![image](https://github.com/user-attachments/assets/dfb36a63-ab4f-48ea-b427-ea442b4aafaa)
 
